@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(252, 252, 248, 0.747);
+}
+header{
+    margin-top: 20px;
+}
+.contenedor--portada{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+.contenedor--portada-img{
+    width: 100%
+}
+nav{
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: red;
+    font-size: 20px;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 60%;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main{
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card{
+    width: 100%;
+    height: 300px;
+}
+article{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
